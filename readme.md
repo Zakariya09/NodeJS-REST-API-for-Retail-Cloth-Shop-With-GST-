@@ -1,7 +1,19 @@
-## install nodemon packageto auto start server after change
+## Installation
+
+i - clone repository on your local drive.
+
+ii - open repo. folder in VSCODE.
+
+iii - Go to App.js File and on line no. 18 add your database connection string i have used mongo Db for this App.
+
+iv - Open Terminal and run command 'npm start', REST will be launched on localhost: PORT 3000
+
+v - Following are commands i have uses throughout the API development.
+
+## Install nodemon package to auto start server after change
 Command -  npm i --save-dev nodemon
 
-## install morgan package for logging 
+## Install morgan package for logging 
 Command -  npm i --save morgan
 
 ## To parse the body of incoming request
